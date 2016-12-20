@@ -1,0 +1,107 @@
+4 requests done.
+8 requests done.
+13 requests done.
+17 requests done.
+20 requests done.
+24 requests done.
+27 requests done.
+31 requests done.
+34 requests done.
+39 requests done.
+43 requests done.
+47 requests done.
+50 requests done.
+55 requests done.
+59 requests done.
+64 requests done.
+69 requests done.
+74 requests done.
+77 requests done.
+81 requests done.
+87 requests done.
+92 requests done.
+96 requests done.
+100 requests done.
+106 requests done.
+114 requests done.
+117 requests done.
+121 requests done.
+125 requests done.
+128 requests done.
+132 requests done.
+136 requests done.
+139 requests done.
+146 requests done.
+150 requests done.
+153 requests done.
+158 requests done.
+163 requests done.
+166 requests done.
+169 requests done.
+172 requests done.
+178 requests done.
+181 requests done.
+186 requests done.
+190 requests done.
+193 requests done.
+197 requests done.
+200 requests done.
+205 requests done.
+209 requests done.
+212 requests done.
+214 requests done.
+219 requests done.
+223 requests done.
+230 requests done.
+236 requests done.
+245 requests done.
+249 requests done.
+252 requests done.
+255 requests done.
+259 requests done.
+265 requests done.
+268 requests done.
+272 requests done.
+276 requests done.
+282 requests done.
+286 requests done.
+291 requests done.
+295 requests done.
+299 requests done.
+All requests done.
+
+Summary:
+  Total:	35.2375 secs
+  Slowest:	0.5101 secs
+  Fastest:	0.0003 secs
+  Average:	0.2341 secs
+  Requests/sec:	8.5137
+  Total data:	1714 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.000 [1]	|∎
+  0.051 [40]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.102 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.153 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.204 [30]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.255 [29]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.306 [30]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.357 [28]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.408 [35]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.459 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.510 [17]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0406 secs
+  25% in 0.1016 secs
+  50% in 0.2327 secs
+  75% in 0.3632 secs
+  90% in 0.4327 secs
+  95% in 0.4657 secs
+  99% in 0.5001 secs
+Please look at http://127.0.0.1:3000/easy-metrics?show=stats
+

@@ -1,0 +1,194 @@
+main.go:25: serving on 127.0.0.1:3000
+main.go:44: working…
+4 requests done.
+7 requests done.
+13 requests done.
+17 requests done.
+19 requests done.
+23 requests done.
+29 requests done.
+31 requests done.
+35 requests done.
+38 requests done.
+44 requests done.
+47 requests done.
+53 requests done.
+57 requests done.
+61 requests done.
+66 requests done.
+71 requests done.
+75 requests done.
+77 requests done.
+82 requests done.
+87 requests done.
+94 requests done.
+98 requests done.
+103 requests done.
+107 requests done.
+113 requests done.
+117 requests done.
+120 requests done.
+125 requests done.
+128 requests done.
+132 requests done.
+136 requests done.
+141 requests done.
+148 requests done.
+151 requests done.
+155 requests done.
+161 requests done.
+164 requests done.
+168 requests done.
+171 requests done.
+175 requests done.
+180 requests done.
+183 requests done.
+187 requests done.
+192 requests done.
+196 requests done.
+201 requests done.
+204 requests done.
+207 requests done.
+211 requests done.
+215 requests done.
+220 requests done.
+222 requests done.
+224 requests done.
+229 requests done.
+235 requests done.
+239 requests done.
+247 requests done.
+253 requests done.
+260 requests done.
+262 requests done.
+266 requests done.
+270 requests done.
+274 requests done.
+278 requests done.
+282 requests done.
+287 requests done.
+292 requests done.
+296 requests done.
+298 requests done.
+All requests done.
+
+Summary:
+  Total:	35.1727 secs
+  Slowest:	0.5012 secs
+  Fastest:	0.0007 secs
+  Average:	0.2329 secs
+  Requests/sec:	8.5293
+  Total data:	1713 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.001 [1]	|∎
+  0.051 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.101 [40]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.151 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.201 [30]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.251 [30]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.301 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.351 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.401 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.451 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.501 [21]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0417 secs
+  25% in 0.0991 secs
+  50% in 0.2246 secs
+  75% in 0.3621 secs
+  90% in 0.4327 secs
+  95% in 0.4651 secs
+  99% in 0.4970 secs
+main.go:47: metrics
+/monkit/stats:
+env.process.control	1.000000
+env.process.crc	3691989601.000000
+env.process.uptime	36.191280
+env.runtime.goroutines	15.000000
+env.runtime.memory.Alloc	2139104.000000
+env.runtime.memory.TotalAlloc	2139104.000000
+env.runtime.memory.Sys	5605624.000000
+env.runtime.memory.Lookups	12.000000
+env.runtime.memory.Mallocs	34814.000000
+env.runtime.memory.Frees	1959.000000
+env.runtime.memory.HeapAlloc	2139104.000000
+env.runtime.memory.HeapSys	2719744.000000
+env.runtime.memory.HeapIdle	270336.000000
+env.runtime.memory.HeapInuse	2449408.000000
+env.runtime.memory.HeapReleased	0.000000
+env.runtime.memory.HeapObjects	32855.000000
+env.runtime.memory.StackInuse	425984.000000
+env.runtime.memory.StackSys	425984.000000
+env.runtime.memory.MSpanInuse	48000.000000
+env.runtime.memory.MSpanSys	49152.000000
+env.runtime.memory.MCacheInuse	2400.000000
+env.runtime.memory.MCacheSys	16384.000000
+env.runtime.memory.BuckHashSys	1442846.000000
+env.runtime.memory.GCSys	163840.000000
+env.runtime.memory.OtherSys	787674.000000
+env.runtime.memory.NextGC	4194304.000000
+env.runtime.memory.LastGC	0.000000
+env.runtime.memory.PauseTotalNs	0.000000
+env.runtime.memory.NumGC	0.000000
+env.runtime.memory.GCCPUFraction	0.000000
+env.rusage.Utime.Sec	0.000000
+env.rusage.Utime.Usec	253731.000000
+env.rusage.Stime.Sec	0.000000
+env.rusage.Stime.Usec	252367.000000
+env.rusage.Maxrss	8466432.000000
+env.rusage.Ixrss	0.000000
+env.rusage.Idrss	0.000000
+env.rusage.Isrss	0.000000
+env.rusage.Minflt	2123.000000
+env.rusage.Majflt	0.000000
+env.rusage.Nswap	0.000000
+env.rusage.Inblock	0.000000
+env.rusage.Oublock	0.000000
+env.rusage.Msgsnd	601.000000
+env.rusage.Msgrcv	601.000000
+env.rusage.Nsignals	0.000000
+env.rusage.Nvcsw	6512.000000
+env.rusage.Nivcsw	8364.000000
+main.handler.current	0.000000
+main.handler.success	300.000000
+main.handler.panics	0.000000
+main.handler.success times min	0.000026
+main.handler.success times avg	0.232049
+main.handler.success times max	0.500322
+main.handler.success times recent	0.008863
+main.handler.failure times min	0.000000
+main.handler.failure times avg	0.000000
+main.handler.failure times max	0.000000
+main.handler.failure times recent	0.000000
+
+/monkit/funcs:
+[3354336375209924631] main.handler
+  parents: entry
+  current: 0, highwater: 2, success: 300, errors: 0, panics: 0
+  success times:
+    0.00: 25.712µs
+    0.10: 37.850052ms
+    0.25: 110.334474ms
+    0.50: 229.859144ms
+    0.75: 353.10128ms
+    0.90: 452.483836ms
+    0.95: 483.47486ms
+    1.00: 500.321625ms
+    avg: 232.048885ms
+  failure times:
+    0.00: 0s
+    0.10: 0s
+    0.25: 0s
+    0.50: 0s
+    0.75: 0s
+    0.90: 0s
+    0.95: 0s
+    1.00: 0s
+    avg: 0s
+

@@ -1,0 +1,116 @@
+main.go:25: serving on 127.0.0.1:3000
+main.go:44: working…
+4 requests done.
+8 requests done.
+13 requests done.
+17 requests done.
+20 requests done.
+24 requests done.
+27 requests done.
+31 requests done.
+34 requests done.
+39 requests done.
+43 requests done.
+47 requests done.
+50 requests done.
+57 requests done.
+59 requests done.
+66 requests done.
+70 requests done.
+75 requests done.
+78 requests done.
+81 requests done.
+87 requests done.
+92 requests done.
+96 requests done.
+100 requests done.
+106 requests done.
+114 requests done.
+117 requests done.
+120 requests done.
+125 requests done.
+128 requests done.
+132 requests done.
+135 requests done.
+139 requests done.
+146 requests done.
+151 requests done.
+153 requests done.
+159 requests done.
+164 requests done.
+167 requests done.
+170 requests done.
+175 requests done.
+177 requests done.
+183 requests done.
+186 requests done.
+191 requests done.
+194 requests done.
+199 requests done.
+203 requests done.
+207 requests done.
+210 requests done.
+213 requests done.
+219 requests done.
+222 requests done.
+226 requests done.
+228 requests done.
+233 requests done.
+237 requests done.
+241 requests done.
+250 requests done.
+257 requests done.
+262 requests done.
+264 requests done.
+269 requests done.
+272 requests done.
+276 requests done.
+281 requests done.
+284 requests done.
+286 requests done.
+288 requests done.
+291 requests done.
+293 requests done.
+295 requests done.
+298 requests done.
+299 requests done.
+All requests done.
+
+Summary:
+  Total:	37.1496 secs
+  Slowest:	0.5000 secs
+  Fastest:	0.0005 secs
+  Average:	0.2346 secs
+  Requests/sec:	8.0754
+  Total data:	1714 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.001 [1]	|∎
+  0.050 [35]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.100 [40]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.150 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.200 [31]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.250 [33]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.300 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.350 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.400 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.450 [24]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.500 [24]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0418 secs
+  25% in 0.1003 secs
+  50% in 0.2260 secs
+  75% in 0.3610 secs
+  90% in 0.4346 secs
+  95% in 0.4666 secs
+  99% in 0.4965 secs
+main.go:47: metrics
+{
+ "requests": 300,
+ "responseTime": 0.23329017467
+}

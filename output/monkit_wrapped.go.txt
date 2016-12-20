@@ -1,0 +1,230 @@
+main.go:25: serving on 127.0.0.1:3000
+main.go:44: working…
+3 requests done.
+7 requests done.
+13 requests done.
+16 requests done.
+20 requests done.
+23 requests done.
+27 requests done.
+30 requests done.
+35 requests done.
+39 requests done.
+43 requests done.
+46 requests done.
+52 requests done.
+55 requests done.
+61 requests done.
+65 requests done.
+71 requests done.
+73 requests done.
+77 requests done.
+83 requests done.
+87 requests done.
+92 requests done.
+96 requests done.
+102 requests done.
+108 requests done.
+112 requests done.
+115 requests done.
+120 requests done.
+123 requests done.
+127 requests done.
+130 requests done.
+134 requests done.
+141 requests done.
+147 requests done.
+149 requests done.
+154 requests done.
+159 requests done.
+163 requests done.
+166 requests done.
+170 requests done.
+173 requests done.
+178 requests done.
+182 requests done.
+187 requests done.
+190 requests done.
+195 requests done.
+200 requests done.
+203 requests done.
+206 requests done.
+209 requests done.
+215 requests done.
+218 requests done.
+221 requests done.
+223 requests done.
+229 requests done.
+233 requests done.
+237 requests done.
+246 requests done.
+253 requests done.
+258 requests done.
+260 requests done.
+265 requests done.
+268 requests done.
+273 requests done.
+277 requests done.
+282 requests done.
+286 requests done.
+290 requests done.
+294 requests done.
+296 requests done.
+299 requests done.
+All requests done.
+
+Summary:
+  Total:	35.6600 secs
+  Slowest:	0.4998 secs
+  Fastest:	0.0006 secs
+  Average:	0.2333 secs
+  Requests/sec:	8.4128
+  Total data:	1713 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.001 [1]	|∎
+  0.051 [38]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.100 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.150 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.200 [32]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.250 [32]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.300 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.350 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.400 [34]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.450 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.500 [24]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0418 secs
+  25% in 0.1006 secs
+  50% in 0.2227 secs
+  75% in 0.3587 secs
+  90% in 0.4328 secs
+  95% in 0.4674 secs
+  99% in 0.4961 secs
+main.go:47: metrics
+/monkit/stats:
+env.process.control	1.000000
+env.process.crc	3636449604.000000
+env.process.uptime	36.685599
+env.runtime.goroutines	15.000000
+env.runtime.memory.Alloc	2340960.000000
+env.runtime.memory.TotalAlloc	2340960.000000
+env.runtime.memory.Sys	6686968.000000
+env.runtime.memory.Lookups	12.000000
+env.runtime.memory.Mallocs	39053.000000
+env.runtime.memory.Frees	1954.000000
+env.runtime.memory.HeapAlloc	2340960.000000
+env.runtime.memory.HeapSys	3768320.000000
+env.runtime.memory.HeapIdle	1097728.000000
+env.runtime.memory.HeapInuse	2670592.000000
+env.runtime.memory.HeapReleased	0.000000
+env.runtime.memory.HeapObjects	37099.000000
+env.runtime.memory.StackInuse	425984.000000
+env.runtime.memory.StackSys	425984.000000
+env.runtime.memory.MSpanInuse	52320.000000
+env.runtime.memory.MSpanSys	65536.000000
+env.runtime.memory.MCacheInuse	2400.000000
+env.runtime.memory.MCacheSys	16384.000000
+env.runtime.memory.BuckHashSys	1443086.000000
+env.runtime.memory.GCSys	196608.000000
+env.runtime.memory.OtherSys	771050.000000
+env.runtime.memory.NextGC	4194304.000000
+env.runtime.memory.LastGC	0.000000
+env.runtime.memory.PauseTotalNs	0.000000
+env.runtime.memory.NumGC	0.000000
+env.runtime.memory.GCCPUFraction	0.000000
+env.rusage.Utime.Sec	0.000000
+env.rusage.Utime.Usec	283699.000000
+env.rusage.Stime.Sec	0.000000
+env.rusage.Stime.Usec	276991.000000
+env.rusage.Maxrss	8740864.000000
+env.rusage.Ixrss	0.000000
+env.rusage.Idrss	0.000000
+env.rusage.Isrss	0.000000
+env.rusage.Minflt	2197.000000
+env.rusage.Majflt	0.000000
+env.rusage.Nswap	0.000000
+env.rusage.Inblock	0.000000
+env.rusage.Oublock	0.000000
+env.rusage.Msgsnd	601.000000
+env.rusage.Msgrcv	601.000000
+env.rusage.Nsignals	0.000000
+env.rusage.Nvcsw	7129.000000
+env.rusage.Nivcsw	8474.000000
+main.handler.current	0.000000
+main.handler.success	300.000000
+main.handler.panics	0.000000
+main.handler.success times min	0.000049
+main.handler.success times avg	0.232403
+main.handler.success times max	0.499001
+main.handler.success times recent	0.158381
+main.handler.failure times min	0.000000
+main.handler.failure times avg	0.000000
+main.handler.failure times max	0.000000
+main.handler.failure times recent	0.000000
+main.workHandler.current	0.000000
+main.workHandler.success	300.000000
+main.workHandler.panics	0.000000
+main.workHandler.success times min	0.000022
+main.workHandler.success times avg	0.232366
+main.workHandler.success times max	0.498964
+main.workHandler.success times recent	0.158346
+main.workHandler.failure times min	0.000000
+main.workHandler.failure times avg	0.000000
+main.workHandler.failure times max	0.000000
+main.workHandler.failure times recent	0.000000
+
+/monkit/funcs:
+[4245963996840983887] main.workHandler
+  parents: 3331866402707139304
+  current: 0, highwater: 2, success: 300, errors: 0, panics: 0
+  success times:
+    0.00: 21.814µs
+    0.10: 44.514391ms
+    0.25: 100.839096ms
+    0.50: 170.122064ms
+    0.75: 355.108512ms
+    0.90: 441.707305ms
+    0.95: 479.682006ms
+    1.00: 498.964463ms
+    avg: 232.365949ms
+  failure times:
+    0.00: 0s
+    0.10: 0s
+    0.25: 0s
+    0.50: 0s
+    0.75: 0s
+    0.90: 0s
+    0.95: 0s
+    1.00: 0s
+    avg: 0s
+
+[3331866402707139304] main.handler
+  parents: entry
+  current: 0, highwater: 2, success: 300, errors: 0, panics: 0
+  success times:
+    0.00: 48.878µs
+    0.10: 38.323737ms
+    0.25: 96.47021ms
+    0.50: 218.171168ms
+    0.75: 337.82548ms
+    0.90: 422.494368ms
+    0.95: 430.690062ms
+    1.00: 499.000715ms
+    avg: 232.40266ms
+  failure times:
+    0.00: 0s
+    0.10: 0s
+    0.25: 0s
+    0.50: 0s
+    0.75: 0s
+    0.90: 0s
+    0.95: 0s
+    1.00: 0s
+    avg: 0s
+

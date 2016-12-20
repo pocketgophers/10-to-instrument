@@ -1,0 +1,140 @@
+main.go:25: serving on 127.0.0.1:3000
+main.go:44: working…
+4 requests done.
+8 requests done.
+13 requests done.
+17 requests done.
+20 requests done.
+24 requests done.
+27 requests done.
+31 requests done.
+35 requests done.
+39 requests done.
+43 requests done.
+48 requests done.
+50 requests done.
+57 requests done.
+59 requests done.
+66 requests done.
+72 requests done.
+76 requests done.
+78 requests done.
+81 requests done.
+89 requests done.
+92 requests done.
+97 requests done.
+100 requests done.
+106 requests done.
+114 requests done.
+118 requests done.
+121 requests done.
+125 requests done.
+128 requests done.
+132 requests done.
+136 requests done.
+139 requests done.
+146 requests done.
+151 requests done.
+155 requests done.
+159 requests done.
+164 requests done.
+168 requests done.
+173 requests done.
+176 requests done.
+181 requests done.
+183 requests done.
+187 requests done.
+192 requests done.
+196 requests done.
+201 requests done.
+204 requests done.
+208 requests done.
+212 requests done.
+216 requests done.
+221 requests done.
+224 requests done.
+226 requests done.
+230 requests done.
+235 requests done.
+238 requests done.
+245 requests done.
+253 requests done.
+260 requests done.
+263 requests done.
+267 requests done.
+270 requests done.
+273 requests done.
+279 requests done.
+283 requests done.
+288 requests done.
+292 requests done.
+297 requests done.
+299 requests done.
+All requests done.
+
+Summary:
+  Total:	35.2639 secs
+  Slowest:	0.4990 secs
+  Fastest:	0.0004 secs
+  Average:	0.2325 secs
+  Requests/sec:	8.5073
+  Total data:	1714 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.000 [1]	|∎
+  0.050 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.100 [39]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.150 [28]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.200 [29]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.250 [31]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.300 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.349 [28]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.399 [35]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.449 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.499 [22]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0424 secs
+  25% in 0.0980 secs
+  50% in 0.2262 secs
+  75% in 0.3597 secs
+  90% in 0.4361 secs
+  95% in 0.4641 secs
+  99% in 0.4971 secs
+main.go:47: metrics
+{
+	"instance_id": "windrunner.local.21256",
+	"interval_duration": 120000000000,
+	"aggregations": [
+		{
+			"interval_start": "2016-12-20T10:48:00+01:00",
+			"serial_number": 300,
+			"jobs": {
+				"handler": {
+					"timers": {},
+					"gauges": {},
+					"events": {},
+					"event_errs": {},
+					"count": 300,
+					"nanos_sum": 69497956718,
+					"nanos_sum_squares": 2.2404587230146523e+19,
+					"nanos_min": 8567,
+					"nanos_max": 498093309,
+					"count_success": 300,
+					"count_validation_error": 0,
+					"count_panic": 0,
+					"count_error": 0,
+					"count_junk": 0
+				}
+			},
+			"timers": {},
+			"gauges": {},
+			"events": {},
+			"event_errs": {}
+		}
+	]
+}

@@ -1,0 +1,114 @@
+main.go:25: serving on 127.0.0.1:3000
+main.go:44: working…
+4 requests done.
+8 requests done.
+13 requests done.
+17 requests done.
+20 requests done.
+25 requests done.
+27 requests done.
+31 requests done.
+35 requests done.
+39 requests done.
+43 requests done.
+48 requests done.
+50 requests done.
+57 requests done.
+59 requests done.
+66 requests done.
+72 requests done.
+76 requests done.
+78 requests done.
+81 requests done.
+89 requests done.
+92 requests done.
+97 requests done.
+100 requests done.
+106 requests done.
+114 requests done.
+118 requests done.
+121 requests done.
+125 requests done.
+129 requests done.
+132 requests done.
+137 requests done.
+139 requests done.
+146 requests done.
+151 requests done.
+155 requests done.
+160 requests done.
+164 requests done.
+168 requests done.
+173 requests done.
+177 requests done.
+181 requests done.
+184 requests done.
+187 requests done.
+192 requests done.
+196 requests done.
+201 requests done.
+205 requests done.
+208 requests done.
+212 requests done.
+216 requests done.
+221 requests done.
+224 requests done.
+226 requests done.
+230 requests done.
+236 requests done.
+238 requests done.
+246 requests done.
+253 requests done.
+260 requests done.
+263 requests done.
+267 requests done.
+270 requests done.
+275 requests done.
+280 requests done.
+283 requests done.
+288 requests done.
+292 requests done.
+295 requests done.
+298 requests done.
+299 requests done.
+All requests done.
+
+Summary:
+  Total:	35.7427 secs
+  Slowest:	0.4995 secs
+  Fastest:	0.0003 secs
+  Average:	0.2321 secs
+  Requests/sec:	8.3933
+  Total data:	1714 bytes
+  Size/request:	5 bytes
+
+Status code distribution:
+  [200]	300 responses
+
+Response time histogram:
+  0.000 [1]	|∎
+  0.050 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.100 [39]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.150 [27]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.200 [31]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.250 [32]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.300 [26]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.350 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.400 [36]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.450 [25]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.499 [22]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.0416 secs
+  25% in 0.0978 secs
+  50% in 0.2228 secs
+  75% in 0.3583 secs
+  90% in 0.4351 secs
+  95% in 0.4644 secs
+  99% in 0.4967 secs
+main.go:47: metrics
+{
+"cmdline": ["/var/folders/77/ny4c31w541v35nx_zf6zd__c0000gn/T/go-build180706550/command-line-arguments/_obj/exe/main","-batch"],
+"memstats": {"Alloc":19920856,"TotalAlloc":19960896,"Sys":24410360,"Lookups":10,"Mallocs":29942,"Frees":1872,"HeapAlloc":19920856,"HeapSys":20774912,"HeapIdle":524288,"HeapInuse":20250624,"HeapReleased":0,"HeapObjects":28070,"StackInuse":458752,"StackSys":458752,"MSpanInuse":43840,"MSpanSys":49152,"MCacheInuse":2400,"MCacheSys":16384,"BuckHashSys":1443040,"GCSys":882688,"OtherSys":785432,"NextGC":30366898,"LastGC":1482227211205171433,"PauseTotalNs":452953,"PauseNs":[97056,86550,269347,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"PauseEnd":[1482227211198141872,1482227211199303430,1482227211205171433,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"NumGC":3,"GCCPUFraction":0.08145918253875731,"EnableGC":true,"DebugGC":false,"BySize":[{"Size":0,"Mallocs":0,"Frees":0},{"Size":8,"Mallocs":1222,"Frees":1},{"Size":16,"Mallocs":5301,"Frees":21},{"Size":32,"Mallocs":11792,"Frees":13},{"Size":48,"Mallocs":3474,"Frees":0},{"Size":64,"Mallocs":1331,"Frees":9},{"Size":80,"Mallocs":354,"Frees":2},{"Size":96,"Mallocs":1346,"Frees":6},{"Size":112,"Mallocs":620,"Frees":0},{"Size":128,"Mallocs":319,"Frees":1},{"Size":144,"Mallocs":311,"Frees":2},{"Size":160,"Mallocs":26,"Frees":7},{"Size":176,"Mallocs":8,"Frees":2},{"Size":192,"Mallocs":3,"Frees":0},{"Size":208,"Mallocs":346,"Frees":29},{"Size":224,"Mallocs":0,"Frees":0},{"Size":240,"Mallocs":609,"Frees":0},{"Size":256,"Mallocs":21,"Frees":0},{"Size":288,"Mallocs":21,"Frees":12},{"Size":320,"Mallocs":5,"Frees":3},{"Size":352,"Mallocs":921,"Frees":0},{"Size":384,"Mallocs":0,"Frees":0},{"Size":416,"Mallocs":49,"Frees":7},{"Size":448,"Mallocs":0,"Frees":0},{"Size":480,"Mallocs":5,"Frees":0},{"Size":512,"Mallocs":2,"Frees":0},{"Size":576,"Mallocs":7,"Frees":5},{"Size":640,"Mallocs":7,"Frees":0},{"Size":704,"Mallocs":2,"Frees":0},{"Size":768,"Mallocs":0,"Frees":0},{"Size":896,"Mallocs":7,"Frees":7},{"Size":1024,"Mallocs":11,"Frees":0},{"Size":1152,"Mallocs":7,"Frees":6},{"Size":1280,"Mallocs":0,"Frees":0},{"Size":1408,"Mallocs":0,"Frees":0},{"Size":1536,"Mallocs":0,"Frees":0},{"Size":1664,"Mallocs":7,"Frees":2},{"Size":2048,"Mallocs":34,"Frees":0},{"Size":2304,"Mallocs":6,"Frees":0},{"Size":2560,"Mallocs":1,"Frees":0},{"Size":2816,"Mallocs":0,"Frees":0},{"Size":3072,"Mallocs":0,"Frees":0},{"Size":3328,"Mallocs":4,"Frees":1},{"Size":4096,"Mallocs":13,"Frees":0},{"Size":4608,"Mallocs":0,"Frees":0},{"Size":5376,"Mallocs":3,"Frees":0},{"Size":6144,"Mallocs":2,"Frees":0},{"Size":6400,"Mallocs":0,"Frees":0},{"Size":6656,"Mallocs":1,"Frees":0},{"Size":6912,"Mallocs":0,"Frees":0},{"Size":8192,"Mallocs":2,"Frees":0},{"Size":8448,"Mallocs":0,"Frees":0},{"Size":8704,"Mallocs":0,"Frees":0},{"Size":9472,"Mallocs":0,"Frees":0},{"Size":10496,"Mallocs":0,"Frees":0},{"Size":12288,"Mallocs":0,"Frees":0},{"Size":13568,"Mallocs":0,"Frees":0},{"Size":14080,"Mallocs":0,"Frees":0},{"Size":16384,"Mallocs":0,"Frees":0},{"Size":16640,"Mallocs":0,"Frees":0},{"Size":17664,"Mallocs":0,"Frees":0}]},
+"metrics": {"Counters":{"requests":300},"Gauges":{"responseTime.P50":221962239,"responseTime.P75":357449727,"responseTime.P90":430374911,"responseTime.P95":461094911,"responseTime.P99":493240319,"responseTime.P999":498728959}}
+}
